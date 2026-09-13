@@ -1,0 +1,9 @@
+cURL command:
+
+curl -s https://api.github.com/repos/saritask/expressBookReviews | grep -E '"full_name": "saritask/expressBookReviews"|"fork": true|"full_name": "ibm-developer-skills-network/expressBookReviews"'
+
+Output:
+
+"full_name": "saritask/expressBookReviews",
+"fork": true,
+"full_name": "ibm-developer-skills-network/expressBookReviews",
